@@ -6,6 +6,8 @@ import { AngularAria } from './topics/angular-aria';
   imports: [AngularAria],
   template: `
     <h1>v22</h1>
+
+    <h2>Angular Aria package (<code>@angular/aria</code>): Stable</h2>
     <app-angular-aria />
   `,
 })
