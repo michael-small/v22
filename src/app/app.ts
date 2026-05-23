@@ -6,6 +6,7 @@ import { Resources } from './topics/resources';
 import { Debounced } from './topics/debounced';
 import { InjectAsync } from './topics/injectAsync';
 import { SafeNavigationAndNullishCoalescing } from './topics/safe-navigation-and-nullish-coalescing';
+import { CommentsInHtmlElement } from './topics/comments-in-html-element';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { SafeNavigationAndNullishCoalescing } from './topics/safe-navigation-and
     Debounced,
     InjectAsync,
     SafeNavigationAndNullishCoalescing,
+    CommentsInHtmlElement,
   ],
   template: `
     <h1>v22</h1>
@@ -41,6 +43,9 @@ import { SafeNavigationAndNullishCoalescing } from './topics/safe-navigation-and
 
     <h2>Safe Navigation and Nullish Coalescing in templates aligning with TS spec</h2>
     <app-safe-navigation-and-nullish-coalescing />
+
+    <h2>Comments in HTML elements</h2>
+    <app-comments-in-html-element />
   `,
 })
 export class App {}
