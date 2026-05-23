@@ -33,4 +33,4 @@ import { Component } from '@angular/core';
     <p>TODO - example</p>
   `,
 })
-export class Service {}
+export class ServiceExample {}

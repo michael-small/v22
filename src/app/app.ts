@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { AngularAria } from './topics/angular-aria';
 import { SignalForms } from './topics/signal-forms';
-import { Service } from './topics/service';
+import { ServiceExample } from './topics/service';
 
 @Component({
   selector: 'app-root',
-  imports: [AngularAria, SignalForms, Service],
+  imports: [AngularAria, SignalForms, ServiceExample],
   template: `
     <h1>v22</h1>
 
