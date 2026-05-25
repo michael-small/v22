@@ -4,7 +4,7 @@ import { SignalForms } from './topics/signal-forms';
 import { ServiceExample } from './topics/service';
 import { Resources } from './topics/resources';
 import { Debounced } from './topics/debounced';
-import { InjectAsync } from './topics/injectAsync';
+import { InjectAsync } from './topics/injectAsync/injectAsync';
 import { SafeNavigationAndNullishCoalescing } from './topics/safe-navigation-and-nullish-coalescing';
 import { CommentsInHtmlElement } from './topics/comments-in-html-element';
 
