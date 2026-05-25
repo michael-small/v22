@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AriaMenu } from './aria-menu';
 
 @Component({
   selector: 'app-angular-aria',
@@ -24,7 +25,31 @@ import { Component } from '@angular/core';
       <p>—Docs, <cite>What is Angular Aria?</cite></p>
     </div>
 
-    <em>TODO: add examples</em>
+    <p>TODO - link to each closer to release</p>
+    <ul>
+      <li>Accordion</li>
+      <li>Autocomplete</li>
+      <li>Combobox</li>
+      <li>Grid</li>
+      <li>Listbox</li>
+      <li>Menu</li>
+      <li>Menubar</li>
+      <li>Multiselect</li>
+      <li>Select</li>
+      <li>Tabs</li>
+      <li>Toolbar</li>
+      <li>Tree</li>
+    </ul>
+
+    <p>
+      <a href="https://angular.dev/guide/aria/menu#overview" target="_blank"
+        >From documentation code</a
+      >
+    </p>
+    <app-aria-menu />
+
+    <p>TODO - add copy on click for install</p>
   `,
+  imports: [AriaMenu],
 })
 export class AngularAria {}

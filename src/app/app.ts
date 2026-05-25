@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AngularAria } from './topics/angular-aria';
+import { AngularAria } from './topics/angular-aria/angular-aria';
 import { SignalForms } from './topics/signal-forms';
 import { ServiceExample } from './topics/service';
 import { Resources } from './topics/resources';
