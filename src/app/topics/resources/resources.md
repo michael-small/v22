@@ -18,3 +18,5 @@ Tradeoffs: [Deborah Kurata - resource(), rxResource(), httpResource(): Why????](
 `httpResource` is likely what you want to reach for if you do not have pre-existing `HttpClient.get` functions in a pre-existing codebase. `httpResource` gives all the functionality but without needing to use RxJS directly.
 
 Personally, I use `rxResource` because the codebases I work on have tons of existing `HttpClient.get` endpoints already. And recently we started adding complimentary resource constructing functions, [like this Deborah Kurata video](https://youtu.be/4VhiNK_9QIY) which uses `httpResource` as an example.
+
+I am not the best with remembering the little details of resource snytax, so [I made a Stackblitz project showing various `rxResource` syntaxes](https://stackblitz.com/edit/stackblitz-starters-xl5d6roe?file=src%2Fmain.ts).
