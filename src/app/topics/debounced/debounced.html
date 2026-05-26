@@ -1,0 +1,9 @@
+<markdown [src]="'/debounced/example-block.md'" ngPreserveWhitespaces />
+
+<input (input)="query.set($event.target.value)" />
+@if (results.isLoading()) {
+    <p>Searching…</p>
+}
+@for (item of results.value(); track item) {
+    <li>{{ item }}</li>
+}

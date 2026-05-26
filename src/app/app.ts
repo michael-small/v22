@@ -3,7 +3,7 @@ import { AngularAria } from './topics/angular-aria/angular-aria';
 import { SignalForms } from './topics/signal-forms';
 import { ServiceExample } from './topics/service';
 import { Resources } from './topics/resources';
-import { Debounced } from './topics/debounced';
+import { Debounced } from './topics/debounced/debounced';
 import { InjectAsync } from './topics/injectAsync/injectAsync';
 import { SafeNavigationAndNullishCoalescing } from './topics/safe-navigation-and-nullish-coalescing';
 import { CommentsInHtmlElement } from './topics/comments-in-html-element';
