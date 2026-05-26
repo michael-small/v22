@@ -28,7 +28,7 @@ class MyServiceInjectable {
 @Component({
   selector: 'app-service',
   imports: [CommonModule, MarkdownModule],
-  templateUrl: './service.html',
+  template: ` <markdown [src]="'/service/service-bullet-points.md'" ngPreserveWhitespaces /> `,
   preserveWhitespaces: true,
 })
 export class ServiceExample {}

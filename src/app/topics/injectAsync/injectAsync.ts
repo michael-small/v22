@@ -5,7 +5,11 @@ import { MarkdownModule } from 'ngx-markdown';
 @Component({
   selector: 'app-injectAsync',
   imports: [MarkdownModule, CommonModule],
-  templateUrl: './injectAsync.html',
+  template: `
+    <markdown [src]="'/injectAsync/injectAsync.md'" ngPreserveWhitespaces />
+
+    <button (click)="export()">Export</button>
+  `,
   preserveWhitespaces: true,
 })
 export class InjectAsync {
