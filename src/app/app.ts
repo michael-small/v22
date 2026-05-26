@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { AngularAria } from './topics/angular-aria/angular-aria';
 import { SignalForms } from './topics/signal-forms';
 import { ServiceExample } from './topics/service/service';
-import { Resources } from './topics/resources';
+import { Resources } from './topics/resources/resources';
 import { Debounced } from './topics/debounced/debounced';
 import { InjectAsync } from './topics/injectAsync/injectAsync';
 import { SafeNavigationAndNullishCoalescing } from './topics/safe-navigation-and-nullish-coalescing';
