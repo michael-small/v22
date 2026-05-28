@@ -8,6 +8,7 @@ import { InjectAsync } from './topics/injectAsync/injectAsync';
 import { CommentsInHtmlElement } from './topics/comments-in-html-element';
 import { SafeNavigationAlignedWithTS } from './topics/safe-navigation-aligned-with-ts/safe-navigation-aligned-with-ts';
 import { DeferIdle } from './topics/defer-idle/defer-idle';
+import { DeferTriggerMisconfiguration } from './topics/defer-trigger-misconfiguration/defer-trigger-misconfiguration';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { DeferIdle } from './topics/defer-idle/defer-idle';
     CommentsInHtmlElement,
     SafeNavigationAlignedWithTS,
     DeferIdle,
+    DeferTriggerMisconfiguration,
   ],
   template: `
     <h1>v22</h1>
@@ -51,6 +53,9 @@ import { DeferIdle } from './topics/defer-idle/defer-idle';
 
     <h2>&#64;defer idle timeout + DI token (<code>IdleService</code> / <code>provideIdleServiceWith</code>): Stable</h2>
     <app-defer-idle />
+
+    <h2>&#64;defer trigger misconfiguration diagnostics</h2>
+    <app-defer-trigger-misconfiguration />
   `,
 })
 export class App {}
