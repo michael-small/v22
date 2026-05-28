@@ -1,10 +1,9 @@
-import { CommonModule } from '@angular/common';
 import { Component, injectAsync } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
 
 @Component({
   selector: 'app-injectAsync',
-  imports: [MarkdownModule, CommonModule],
+  imports: [MarkdownModule],
   template: `
     <markdown [src]="'/injectAsync/injectAsync.md'" ngPreserveWhitespaces />
 

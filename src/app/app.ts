@@ -9,6 +9,7 @@ import { CommentsInHtmlElement } from './topics/comments-in-html-element';
 import { SafeNavigationAlignedWithTS } from './topics/safe-navigation-aligned-with-ts/safe-navigation-aligned-with-ts';
 import { DeferIdle } from './topics/defer-idle/defer-idle';
 import { DeferTriggerMisconfiguration } from './topics/defer-trigger-misconfiguration/defer-trigger-misconfiguration';
+import { EnableProfiling } from './topics/enable-profiling/enable-profiling';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +24,7 @@ import { DeferTriggerMisconfiguration } from './topics/defer-trigger-misconfigur
     SafeNavigationAlignedWithTS,
     DeferIdle,
     DeferTriggerMisconfiguration,
+    EnableProfiling,
   ],
   template: `
     <h1>v22</h1>
@@ -56,6 +58,9 @@ import { DeferTriggerMisconfiguration } from './topics/defer-trigger-misconfigur
 
     <h2>&#64;defer trigger misconfiguration diagnostics</h2>
     <app-defer-trigger-misconfiguration />
+
+    <h2><code>enableProfiling</code> with documentation URLs</h2>
+    <app-enable-profiling />
   `,
 })
 export class App {}

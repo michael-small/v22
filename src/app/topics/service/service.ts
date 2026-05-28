@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, Injectable, Service } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
@@ -27,7 +26,7 @@ class MyServiceInjectable {
 
 @Component({
   selector: 'app-service',
-  imports: [CommonModule, MarkdownModule],
+  imports: [MarkdownModule],
   template: ` <markdown [src]="'/service/service-bullet-points.md'" ngPreserveWhitespaces /> `,
   preserveWhitespaces: true,
 })

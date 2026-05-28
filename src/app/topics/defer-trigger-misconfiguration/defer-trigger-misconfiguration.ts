@@ -1,11 +1,10 @@
-import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
 import { Dummy } from './dummy';
 
 @Component({
   selector: 'app-defer-trigger-misconfiguration',
-  imports: [MarkdownModule, CommonModule, Dummy],
+  imports: [MarkdownModule, Dummy],
   template: `
     <markdown [src]="'/defer-trigger-misconfiguration/example-block.md'" ngPreserveWhitespaces />
 

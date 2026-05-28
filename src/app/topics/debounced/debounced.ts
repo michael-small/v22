@@ -1,12 +1,11 @@
-import { CommonModule } from '@angular/common';
-import { Component, debounced, resource, signal } from '@angular/core';
+import { Component, debounced, signal } from '@angular/core';
 import { rxResource } from '@angular/core/rxjs-interop';
 import { MarkdownModule } from 'ngx-markdown';
 import { delay, of } from 'rxjs';
 
 @Component({
   selector: 'app-debounced',
-  imports: [MarkdownModule, CommonModule],
+  imports: [MarkdownModule],
   template: `
     <markdown [src]="'/debounced/example-block.md'" ngPreserveWhitespaces />
 
