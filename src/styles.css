@@ -1,18 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 :root {
   --angular-pink: #e90464;
   --angular-purple: #8514f5;
+  --mat-font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-family: var(--mat-font-family);
+}
+
+body {
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: var(--mat-font-family);
+  line-height: 1.5;
 }
 
 /* https://docs.google.com/presentation/d/1DaG9oqxkSRwOrP2E-iNzVCpv2pAq_MVb7N8Uv_sCpk0/edit?usp=sharing */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+textarea,
+select {
+  font-family: var(--mat-font-family);
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
 h2 {
   color: var(--angular-pink);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
+
 h3 {
   color: var(--angular-purple);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+p,
+li,
+code,
+a {
+  font-family: var(--mat-font-family);
+}
+
+code {
+  font-size: 0.95em;
+}
+
+.author-note {
+  margin: 4rem 0 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--angular-purple) 20%, transparent);
+}
+
+.author-signoff {
+  font-weight: 500;
 }
