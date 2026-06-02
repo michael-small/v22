@@ -10,15 +10,46 @@ import { Component } from '@angular/core';
 
     <p>A selection of features from 21.2 that are explained in the article:</p>
     <ul>
-      <li>Template arrow functions</li>
-      <li>Exhaustive &commat;switch checks w/never keyword</li>
+      <li>
+        Template arrow functions
+
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=8DgXdhbQdtc" target="_blank">Igor YT</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Exhaustive &commat;switch checks w/never keyword
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=G6y9j21OkxQ" target="_blank">Igor YT</a>
+          </li>
+        </ul>
+      </li>
       <li>ChangeDetectionStrategy.Eager</li>
-      <li>Resource snapshot</li>
+      <li>
+        Resource snapshot
+        <ul>
+          <li>
+            <a
+              href="https://next.angular.dev/guide/signals/resource#composing-resources-with-snapshots"
+              target="_blank"
+              >Documentation</a
+            >
+          </li>
+        </ul>
+      </li>
       <li>Nested animation</li>
       <li>More routing</li>
       <li>Resource visualization in Angular DevTools</li>
       <li>ng add for Vitest browser providers</li>
-      <li>Built-in Prettier in CLI for new projects</li>
+      <li>
+        Built-in Prettier in CLI for new projects
+        <ul>
+          <li>See source of this project</li>
+        </ul>
+      </li>
     </ul>
   `,
 })

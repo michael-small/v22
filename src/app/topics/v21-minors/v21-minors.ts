@@ -11,6 +11,8 @@ import { V21_1 } from './v21.1';
       as well be v22 features for you!
     </p>
 
+    <p>Bonus links to the documentation or Igor Sedov's YouTube videos</p>
+
     <app-v21-1 />
     <app-v21-2 />
 

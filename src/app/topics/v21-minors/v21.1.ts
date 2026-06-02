@@ -10,12 +10,35 @@ import { Component } from '@angular/core';
 
     <p>A selection of features from 21.1 that are explained in the article:</p>
     <ul>
-      <li>Multiple &commat;switch conditions in a single block</li>
-      <li>Template spread operator</li>
+      <li>
+        Multiple &commat;switch conditions in a single block
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/shorts/GLvYUv7MP7o" target="_blank">Igor YT</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Template spread operator
+        <ul>
+          <li>
+            <code>{{ spreadTextObject }}</code>
+          </li>
+          <li>
+            <code>{{ spreadTextArray }}</code>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=VX3fQ-qjSwk" target="_blank">Igor YT</a>
+          </li>
+        </ul>
+      </li>
       <li>Routing</li>
       <li>Smoother Jasmine to Vitest migration</li>
       <li>MCP improvements</li>
     </ul>
   `,
 })
-export class V21_1 {}
+export class V21_1 {
+  spreadTextObject = "{...obj, foo: 'bar'}";
+  spreadTextArray = '[...arr, 1, 2, 3]';
+}
