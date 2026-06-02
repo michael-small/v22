@@ -14,6 +14,7 @@ import { BrowserUrl } from './topics/browser-url/browser-url';
 import { V21Minors } from './topics/v21-minors/v21-minors';
 import { OnPushDefultCD } from './topics/OnPush-default';
 import { ContributionNote } from './contribution-note';
+import { ParamsInheritanceStrategyAlways } from './topics/paramsInheritanceStrategy-always/paramsInheritanceStrategy-always';
 
 @Component({
   selector: 'app-home',
@@ -33,6 +34,7 @@ import { ContributionNote } from './contribution-note';
     V21Minors,
     OnPushDefultCD,
     ContributionNote,
+    ParamsInheritanceStrategyAlways,
   ],
   template: `
     <h1>Angular v22</h1>
@@ -66,6 +68,9 @@ import { ContributionNote } from './contribution-note';
 
     <h2>Comments in HTML elements</h2>
     <app-comments-in-html-element />
+
+    <h2>paramsInheritanceStrategy - always</h2>
+    <app-params-inheritance-strategy-always />
 
     <h2>
       &#64;defer idle timeout + DI token (<code>IdleService</code> /
