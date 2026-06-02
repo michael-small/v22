@@ -13,6 +13,7 @@ import { EnableProfiling } from './topics/enable-profiling/enable-profiling';
 import { BrowserUrl } from './topics/browser-url/browser-url';
 import { V21Minors } from './topics/v21-minors/v21-minors';
 import { OnPushDefultCD } from './topics/OnPush-default';
+import { ContributionNote } from './contribution-note';
 
 @Component({
   selector: 'app-home',
@@ -31,6 +32,7 @@ import { OnPushDefultCD } from './topics/OnPush-default';
     BrowserUrl,
     V21Minors,
     OnPushDefultCD,
+    ContributionNote,
   ],
   template: `
     <h1>Angular v22</h1>
@@ -79,6 +81,7 @@ import { OnPushDefultCD } from './topics/OnPush-default';
 
     <h2><code>browserUrl</code> input for <code>RouterLink</code></h2>
     <app-browser-url />
+    <app-contribution-note />
   `,
 })
 export class Home {}
