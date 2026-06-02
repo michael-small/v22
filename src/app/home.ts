@@ -33,7 +33,7 @@ import { OnPushDefultCD } from './topics/OnPush-default';
     OnPushDefultCD,
   ],
   template: `
-    <h1>v22</h1>
+    <h1>Angular v22</h1>
 
     <h2>v21.1 and v21.2 recap</h2>
     <app-v21-minors />

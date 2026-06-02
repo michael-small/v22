@@ -7,14 +7,17 @@ import { MarkdownModule } from 'ngx-markdown';
   template: `
     <markdown [src]="'safe-navigation-aligned-with-ts/safenav.md'" />
 
-    <p>typeof foo?.bar: {{ typeof foo?.bar }}</p>
-    <p>typeof foo?.bar === typeof nullValue: {{ typeof foo?.bar === typeof nullValue }}</p>
+    <p><code>typeof foo?.bar</code>: {{ typeof foo?.bar }}</p>
+    <p>
+      <code>typeof foo?.bar === typeof nullValue</code>: {{ typeof foo?.bar === typeof nullValue }}
+    </p>
 
     <p>
-      typeof $safeNavigationMigration(foo?.bar): {{ typeof $safeNavigationMigration(foo?.bar) }}
+      <code>typeof $safeNavigationMigration(foo?.bar)</code>:
+      {{ typeof $safeNavigationMigration(foo?.bar) }}
     </p>
     <p>
-      typeof $safeNavigationMigration(foo?.bar) === typeof nullValue:
+      <code>typeof $safeNavigationMigration(foo?.bar) === typeof nullValue</code>:
       {{ typeof $safeNavigationMigration(foo?.bar) === typeof nullValue }}
     </p>
   `,
