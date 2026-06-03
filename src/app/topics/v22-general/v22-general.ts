@@ -25,9 +25,9 @@ import { Component } from '@angular/core';
     </ul>
 
     <p>
-      <a href="https://github.com/angular/angular/pull/69108" target="_blank"
-        >PR for v22 documentation announcement</a
-      >. Once the official blog post is live, I will update this link to go to that instead.
+      <a href="https://blog.angular.dev/announcing-angular-v22-c52bb83a4664" target="_blank"
+        >Official blog post: Announcing Angular v22
+      </a>
     </p>
     <p>
       <a
