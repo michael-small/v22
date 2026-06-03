@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
     <p>A selection of features from 21.1 that are explained in the article:</p>
     <ul>
       <li>
-        Multiple &commat;switch conditions in a single block
+        Multiple <code>&commat;switch</code> conditions in a single block
         <ul>
           <li>
             <a href="https://www.youtube.com/shorts/GLvYUv7MP7o" target="_blank">Igor YT</a>

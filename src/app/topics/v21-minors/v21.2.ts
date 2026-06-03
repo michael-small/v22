@@ -20,14 +20,14 @@ import { Component } from '@angular/core';
         </ul>
       </li>
       <li>
-        Exhaustive &commat;switch checks w/never keyword
+        Exhaustive <code>&commat;switch</code> checks with the <code>never</code> keyword
         <ul>
           <li>
             <a href="https://www.youtube.com/watch?v=G6y9j21OkxQ" target="_blank">Igor YT</a>
           </li>
         </ul>
       </li>
-      <li>ChangeDetectionStrategy.Eager</li>
+      <li><code>ChangeDetectionStrategy.Eager</code></li>
       <li>
         Resource snapshot
         <ul>
