@@ -39,11 +39,26 @@ import { ParamsInheritanceStrategyAlways } from './topics/paramsInheritanceStrat
   template: `
     <h1>Angular v22</h1>
 
-    <p>
-      <a href="https://next.angular.dev/update-guide?v=21.0-22.0&l=3" target="_blank"
-        >The official update guide</a
-      >
-    </p>
+    <ul>
+      <li>
+        <a
+          href="https://next.angular.dev/update-guide?v=21.0-22.0&l=3"
+          target="_blank"
+          target="_blank"
+          >The official update guide</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/angular/angular/releases/tag/v22.0.0" target="_blank"
+          >22 core packages release notes</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/angular/angular-cli/releases/tag/v22.0.0" target="_blank"
+          >22 CLI release notes</a
+        >
+      </li>
+    </ul>
 
     <h2>v21.1 and v21.2 recap</h2>
     <app-v21-minors />
