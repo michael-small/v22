@@ -15,6 +15,7 @@ import { V21Minors } from './topics/v21-minors/v21-minors';
 import { OnPushDefultCD } from './topics/OnPush-default';
 import { ContributionNote } from './contribution-note';
 import { ParamsInheritanceStrategyAlways } from './topics/paramsInheritanceStrategy-always/paramsInheritanceStrategy-always';
+import { V22General } from './topics/v22-general/v22-general';
 
 @Component({
   selector: 'app-home',
@@ -35,30 +36,11 @@ import { ParamsInheritanceStrategyAlways } from './topics/paramsInheritanceStrat
     OnPushDefultCD,
     ContributionNote,
     ParamsInheritanceStrategyAlways,
+    V22General,
   ],
   template: `
     <h1>Angular v22</h1>
-
-    <ul>
-      <li>
-        <a
-          href="https://next.angular.dev/update-guide?v=21.0-22.0&l=3"
-          target="_blank"
-          target="_blank"
-          >The official update guide</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/angular/angular/releases/tag/v22.0.0" target="_blank"
-          >22 core packages release notes</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/angular/angular-cli/releases/tag/v22.0.0" target="_blank"
-          >22 CLI release notes</a
-        >
-      </li>
-    </ul>
+    <app-v22-general />
 
     <h2>v21.1 and v21.2 recap</h2>
     <app-v21-minors />
