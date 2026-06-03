@@ -23,6 +23,12 @@ import { Component } from '@angular/core';
         >
       </li>
     </ul>
+
+    <p>
+      <a href="https://github.com/angular/angular/pull/69108" target="_blank"
+        >PR for v22 documentation announcement</a
+      >. Once the official blog post is live, I will update this link to go to that instead.
+    </p>
     <p>
       <a
         href="https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html"
@@ -41,9 +47,9 @@ import { Component } from '@angular/core';
       >
     </p>
     <p>
-      <a href="https://github.com/angular/angular/pull/69108" target="_blank"
-        >PR for v22 documentation announcement</a
-      >. Once the official blog post is live, I will update this link to go to that instead.
+      <a href="https://www.youtube.com/watch?v=CnQr8bAYKKY" target="_blank"
+        >A+ Show S11E11 | Angular 22 Has Landed — And It’s Built for the Future with Mark Techson
+      </a>
     </p>
   `,
 })
