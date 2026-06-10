@@ -11,7 +11,7 @@
   "private": true,
   "packageManager": "npm@10.9.4",
   "dependencies": {
-    "@angular/aria": "^22.0.0-rc.3",
+    "@angular/aria": "^22.0.0",
     "@angular/common": "^22.0.0",
     "@angular/compiler": "^22.0.0",
     "@angular/core": "^22.0.0",
